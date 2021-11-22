@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+body {
+    font-family: "Noto Serif", serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #6366f1;
+    --off-white: #f3f4f6;
+    --dark-gray: #6b7280;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+
+/**Page Header**/
+
+.page-header h1 {
+    background-color: var(--primary-color);
+}
+
+
+/** container **/
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/** Links**/
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
+/**Lists**/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+/** navigation**/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .links {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/**Header**/
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: large;
+    color: var(--primary-color);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+
+/**Section**/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+/**Footer**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .ul {
+    padding-inline-start: 0px;
+}
